@@ -1,0 +1,55 @@
+﻿Сборка начата 10.05.2016 17:37:11.
+     1>Проект "Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\maket\maket\maket.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         Y:\Programmes\VS15\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.7\include" /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Entity.cpp KeplerianElements.cpp MySQL.cpp Satellite.cpp State.cpp TESTING.cpp TLE.cpp
+         TLE.cpp
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(98): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(99): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(100): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(101): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(102): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(103): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(104): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(105): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(106): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(107): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(108): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(109): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(111): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(113): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(114): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(115): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(116): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(117): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(118): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(119): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(120): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(121): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>y:\myprojects\javaprojects\newfolderforjavaprojects\graduate\maket\maket\tle.cpp(122): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         State.cpp
+         Satellite.cpp
+         KeplerianElements.cpp
+         Создание кода...
+         Компиляция...
+         TESTING.cpp
+         Создание кода...
+         Пропуск... (изменения не обнаружены)
+         MySQL.cpp
+         Entity.cpp
+       Link:
+         Y:\Programmes\VS15\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\maket\x64\Debug\maket.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\maket\x64\Debug\maket.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\maket\x64\Debug\maket.lib" /MACHINE:X64 x64\Debug\Entity.obj
+         x64\Debug\KeplerianElements.obj
+         x64\Debug\Logger.obj
+         x64\Debug\MySQL.obj
+         x64\Debug\Properties.obj
+         x64\Debug\Satellite.obj
+         x64\Debug\State.obj
+         x64\Debug\TESTING.obj
+         x64\Debug\TLE.obj
+         maket.vcxproj -> Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\maket\x64\Debug\maket.exe
+     1>Сборка проекта "Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\maket\maket\maket.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.09
