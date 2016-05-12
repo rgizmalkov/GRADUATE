@@ -147,25 +147,59 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="KeplerianElements.h" />
-    <ClInclude Include="Logger.h" />
-    <ClInclude Include="MySQL.h" />
-    <ClInclude Include="Properties.h" />
-    <ClInclude Include="Satellite.h" />
-    <ClInclude Include="State.h" />
-    <ClInclude Include="TLE.h" />
+    <ClInclude Include="calculation\efemer1_m.h" />
+    <ClInclude Include="calculation\func.h" />
+    <ClInclude Include="calculation\HandlerCalculation.h" />
+    <ClInclude Include="calculation\integration.h" />
+    <ClInclude Include="handlers\Date.h" />
+    <ClInclude Include="handlers\FileWriter.h" />
+    <ClInclude Include="handlers\HandlerFile.h" />
+    <ClInclude Include="handlers\Logger.h" />
+    <ClInclude Include="handlers\Properties.h" />
+    <ClInclude Include="orm\Converter.h" />
+    <ClInclude Include="orm\Entity.h" />
+    <ClInclude Include="orm\KeplerianElements.h" />
+    <ClInclude Include="orm\MySQL.h" />
+    <ClInclude Include="orm\Satellite.h" />
+    <ClInclude Include="orm\State.h" />
+    <ClInclude Include="orm\TLE.h" />
+    <ClInclude Include="sgp4v\add_func.h" />
+    <ClInclude Include="sgp4v\classes.h" />
+    <ClInclude Include="sgp4v\constants.h" />
+    <ClInclude Include="sgp4v\integrator.h" />
+    <ClInclude Include="sgp4v\sgp4ext.h" />
+    <ClInclude Include="sgp4v\sgp4io.h" />
+    <ClInclude Include="sgp4v\sgp4unit.h" />
+    <ClInclude Include="sgp4v\SGP4V.h" />
+    <ClInclude Include="sgp4v\variables.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="KeplerianElements.cpp" />
-    <ClCompile Include="Logger.cpp" />
-    <ClCompile Include="MySQL.cpp" />
-    <ClCompile Include="Properties.cpp" />
-    <ClCompile Include="Satellite.cpp" />
-    <ClCompile Include="State.cpp" />
+    <ClCompile Include="calculation\efemer1_m.cpp" />
+    <ClCompile Include="calculation\func.cpp" />
+    <ClCompile Include="calculation\HandlerCalculation.cpp" />
+    <ClCompile Include="calculation\intergration.cpp" />
+    <ClCompile Include="handlers\Date.cpp" />
+    <ClCompile Include="handlers\FileWriter.cpp" />
+    <ClCompile Include="handlers\HandlerFile.cpp" />
+    <ClCompile Include="handlers\Logger.cpp" />
+    <ClCompile Include="handlers\Properties.cpp" />
+    <ClCompile Include="orm\Converter.cpp" />
+    <ClCompile Include="orm\Entity.cpp" />
+    <ClCompile Include="orm\KeplerianElements.cpp" />
+    <ClCompile Include="orm\MySQL.cpp" />
+    <ClCompile Include="orm\Satellite.cpp" />
+    <ClCompile Include="orm\State.cpp" />
+    <ClCompile Include="orm\TLE.cpp" />
+    <ClCompile Include="sgp4v\add_func.cpp" />
+    <ClCompile Include="sgp4v\classes.cpp" />
+    <ClCompile Include="sgp4v\constants.cpp" />
+    <ClCompile Include="sgp4v\integrator.cpp" />
+    <ClCompile Include="sgp4v\sgp4ext.cpp" />
+    <ClCompile Include="sgp4v\sgp4io.cpp" />
+    <ClCompile Include="sgp4v\sgp4unit.cpp" />
+    <ClCompile Include="sgp4v\SGP4V.cpp" />
+    <ClCompile Include="sgp4v\variables.cpp" />
     <ClCompile Include="TESTING.cpp" />
-    <ClCompile Include="TLE.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

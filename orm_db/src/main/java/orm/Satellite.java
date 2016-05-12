@@ -40,7 +40,7 @@ public class Satellite {
         int num = this.tle.getId();
         double[] kep = NativeClass.jepoch(line1, line2);
 
-        this.state = new State(num,kep[0],kep[1],kep[2],kep[3],kep[4],kep[5]); //State: Vectors V and R
+        this.state = new State(num,kep[0],kep[1],kep[2],kep[3],kep[4],kep[5], kep[6]); //State: Vectors V and R
 
         double[] kep_in = {kep[0],kep[1],kep[2],kep[3],kep[4],kep[5]};
         double[] kepel = NativeClass.coordsToElements(kep_in);
@@ -63,7 +63,7 @@ public class Satellite {
         int num = sat.tle.getId();
         double[] kep = NativeClass.jepoch(line1, line2);
 
-        sat.state = new State(num,kep[0],kep[1],kep[2],kep[3],kep[4],kep[5]); //State: Vectors V and R
+        sat.state = new State(num,kep[0],kep[1],kep[2],kep[3],kep[4],kep[5], kep[6]); //State: Vectors V and R
 
         double[] kep_in = {kep[0],kep[1],kep[2],kep[3],kep[4],kep[5]};
         double[] kepel = NativeClass.coordsToElements(kep_in);

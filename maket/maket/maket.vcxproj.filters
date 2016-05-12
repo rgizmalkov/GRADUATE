@@ -13,60 +13,186 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Заголовочные файлы\sgp4v">
+      <UniqueIdentifier>{f65d8edb-565e-4c5c-b0cd-bf77e2ce1463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\sgp4v">
+      <UniqueIdentifier>{91a902b8-da5d-4805-81d2-6a762d35feea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\handlers">
+      <UniqueIdentifier>{f4b51f7a-61a2-48bf-8f32-cc85d5ff55ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\handlers">
+      <UniqueIdentifier>{321dbbf5-a04d-4220-89a8-a206ec10b66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\calculation">
+      <UniqueIdentifier>{0bcd6829-8ec4-4722-a40d-d8e8232010c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\calculation">
+      <UniqueIdentifier>{7f691673-58a7-4fb6-b59a-190bc9cfb12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\orm">
+      <UniqueIdentifier>{e52eadf4-0fe7-4f67-bde9-6edcb3358d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\orm">
+      <UniqueIdentifier>{bfea6912-131d-4729-a1c8-a693d554cc45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TLE.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\sgp4unit.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
     </ClInclude>
-    <ClInclude Include="KeplerianElements.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\integrator.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
     </ClInclude>
-    <ClInclude Include="State.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\constants.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
     </ClInclude>
-    <ClInclude Include="Satellite.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\SGP4V.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
     </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\variables.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
     </ClInclude>
-    <ClInclude Include="MySQL.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\classes.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
     </ClInclude>
-    <ClInclude Include="Logger.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\sgp4ext.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
     </ClInclude>
-    <ClInclude Include="Properties.h">
-      <Filter>Заголовочные файлы</Filter>
+    <ClInclude Include="sgp4v\sgp4io.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
+    </ClInclude>
+    <ClInclude Include="sgp4v\add_func.h">
+      <Filter>Заголовочные файлы\sgp4v</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\Properties.h">
+      <Filter>Заголовочные файлы\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\HandlerFile.h">
+      <Filter>Заголовочные файлы\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\Date.h">
+      <Filter>Заголовочные файлы\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\Logger.h">
+      <Filter>Заголовочные файлы\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="orm\MySQL.h">
+      <Filter>Заголовочные файлы\orm</Filter>
+    </ClInclude>
+    <ClInclude Include="orm\Satellite.h">
+      <Filter>Заголовочные файлы\orm</Filter>
+    </ClInclude>
+    <ClInclude Include="orm\State.h">
+      <Filter>Заголовочные файлы\orm</Filter>
+    </ClInclude>
+    <ClInclude Include="orm\TLE.h">
+      <Filter>Заголовочные файлы\orm</Filter>
+    </ClInclude>
+    <ClInclude Include="orm\Converter.h">
+      <Filter>Заголовочные файлы\orm</Filter>
+    </ClInclude>
+    <ClInclude Include="orm\Entity.h">
+      <Filter>Заголовочные файлы\orm</Filter>
+    </ClInclude>
+    <ClInclude Include="orm\KeplerianElements.h">
+      <Filter>Заголовочные файлы\orm</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\HandlerCalculation.h">
+      <Filter>Заголовочные файлы\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\efemer1_m.h">
+      <Filter>Заголовочные файлы\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\integration.h">
+      <Filter>Заголовочные файлы\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\func.h">
+      <Filter>Заголовочные файлы\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\FileWriter.h">
+      <Filter>Заголовочные файлы\handlers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TLE.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="KeplerianElements.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="State.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Satellite.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="MySQL.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Logger.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
     <ClCompile Include="TESTING.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="Properties.cpp">
-      <Filter>Файлы исходного кода</Filter>
+    <ClCompile Include="sgp4v\variables.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\SGP4V.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\integrator.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\constants.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\classes.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\sgp4ext.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\sgp4io.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\sgp4unit.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="sgp4v\add_func.cpp">
+      <Filter>Файлы исходного кода\sgp4v</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\Properties.cpp">
+      <Filter>Файлы исходного кода\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\HandlerFile.cpp">
+      <Filter>Файлы исходного кода\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\Date.cpp">
+      <Filter>Файлы исходного кода\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\Logger.cpp">
+      <Filter>Файлы исходного кода\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="orm\Entity.cpp">
+      <Filter>Файлы исходного кода\orm</Filter>
+    </ClCompile>
+    <ClCompile Include="orm\TLE.cpp">
+      <Filter>Файлы исходного кода\orm</Filter>
+    </ClCompile>
+    <ClCompile Include="orm\Converter.cpp">
+      <Filter>Файлы исходного кода\orm</Filter>
+    </ClCompile>
+    <ClCompile Include="orm\Satellite.cpp">
+      <Filter>Файлы исходного кода\orm</Filter>
+    </ClCompile>
+    <ClCompile Include="orm\State.cpp">
+      <Filter>Файлы исходного кода\orm</Filter>
+    </ClCompile>
+    <ClCompile Include="orm\KeplerianElements.cpp">
+      <Filter>Файлы исходного кода\orm</Filter>
+    </ClCompile>
+    <ClCompile Include="orm\MySQL.cpp">
+      <Filter>Файлы исходного кода\orm</Filter>
+    </ClCompile>
+    <ClCompile Include="calculation\HandlerCalculation.cpp">
+      <Filter>Файлы исходного кода\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="calculation\efemer1_m.cpp">
+      <Filter>Файлы исходного кода\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="calculation\func.cpp">
+      <Filter>Файлы исходного кода\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="calculation\intergration.cpp">
+      <Filter>Файлы исходного кода\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\FileWriter.cpp">
+      <Filter>Файлы исходного кода\handlers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

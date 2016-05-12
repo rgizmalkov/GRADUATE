@@ -23,10 +23,12 @@ public class State {
     private double vy;
     @Column(nullable = false, length = 25)
     private double vz;
+    @Column(nullable = false, length = 25)
+    private double jd;
 
     public State(){}
 
-    public State(int id, double rx, double ry, double rz, double vx, double vy, double vz) {
+    public State(int id, double rx, double ry, double rz, double vx, double vy, double vz, double jd) {
         this.id = id;
         this.rx = rx;
         this.ry = ry;
@@ -34,6 +36,7 @@ public class State {
         this.vx = vx;
         this.vy = vy;
         this.vz = vz;
+        this.jd = jd;
     }
 
     @Override

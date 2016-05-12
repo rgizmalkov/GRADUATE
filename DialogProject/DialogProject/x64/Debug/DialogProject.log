@@ -1,0 +1,18 @@
+﻿Сборка начата 12.05.2016 12:50:33.
+     1>Проект "Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\DialogProject\DialogProject\DialogProject.vcxproj" в узле 2 (целевые объекты Build).
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0419" /Ix64\Debug\ /nologo /fo"x64\Debug\DialogProject.res" DialogProject.rc 
+       Link:
+         Y:\Programmes\VS15\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\DialogProject\x64\Debug\DialogProject.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:Y:\Programmes\VS15\VC\Include\Manifest\dpiaware.manifest /Debug /PDB:"Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\DialogProject\x64\Debug\DialogProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\DialogProject\x64\Debug\DialogProject.lib" /MACHINE:X64 x64\Debug\DialogProject.res
+         x64\Debug\DialogProject.obj
+         x64\Debug\DialogProjectDlg.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Tab1.obj
+         x64\Debug\Tab2.obj
+         x64\Debug\Tab3.obj
+         DialogProject.vcxproj -> Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\DialogProject\x64\Debug\DialogProject.exe
+     1>Сборка проекта "Y:\MyProjects\JavaProjects\NewFolderForJavaProjects\GRADUATE\DialogProject\DialogProject\DialogProject.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:00.52

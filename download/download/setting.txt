@@ -1,0 +1,4 @@
+user: dangerilo@gmail.com
+password: flenka_spectr_rungekutta
+rest_query1: https://www.space-track.org/basicspacedata/query/class/tle_latest/ORDINAL/1/EPOCH/%3Enow- 
+rest_query2: /format/tle
